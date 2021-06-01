@@ -1,0 +1,6 @@
+io/flutter/plugins/GeneratedPluginRegistrant.java
+ io.flutter.plugins.GeneratedPluginRegistrant
+com/yinyu/f02/MainActivity.java
+ com.yinyu.f02.MainActivity
+com/yinyu/f02/BuildConfig.java
+ com.yinyu.f02.BuildConfig
