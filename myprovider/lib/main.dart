@@ -1,6 +1,16 @@
 import 'package:flutter/material.dart';
 import 'package:provider/provider.dart';
 
+/**
+ * MultiProvider(
+    providers: [
+    Provider<Something>(create: (_) => Something()),
+    Provider<SomethingElse>(create: (_) => SomethingElse()),
+    Provider<AnotherThing>(create: (_) => AnotherThing()),
+    ],
+    child: someWidget,
+    )
+ */
 main() {
   runApp(ChangeNotifierProvider(
     create: (_) => Counter(1),
